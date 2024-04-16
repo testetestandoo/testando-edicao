@@ -1,4 +1,13 @@
-<animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"></animate>
-  <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="5s" from="0 0 0" to="360 0 0" repeatCount="indefinite"></animateTransform><svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="100" cy="100" r="81" fill="white" stroke="#FF0000" stroke-width="38" stroke-dasharray="29 29"/>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="81" fill="blue" stroke="red" stroke-width="38" stroke-dasharray="29 29">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      from="0 0 0"
+      to="360 100 100"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+  </circle>
 </svg>
